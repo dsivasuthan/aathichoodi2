@@ -10,16 +10,31 @@ use App\Controller\AppController;
  */
 class QuestionsController extends AppController
 {
+    public function quiz()
+    {
+        
+    }
 
-    /**
-     * Index method
-     *
-     * @return \Cake\Network\Response|null
-     */
     public function index()
     {
-        $questions = $this->paginate($this->Questions);
-
+        $query = $this->paginate($this->Questions);
+        $all_questions = $query->toArray();
+        $questions = null;
+        for ($i=0;$i<3;$i++){
+          $questions[$i] = $all_questions[rand(0,count($all_questions))];  
+        } 
+        //pr($all_questions);
+        //pr($questions);
+        if ($this->request->is('get')){
+            //int rand ( int $min , int $max )
+        } else if ($this->request->is('post')){
+            if ($selected==$correct){
+                $this->Flash->success(__('correct'));
+            } else {
+                $this->Flash->error(__('incorrect'));
+            }
+        }
+        
         $this->set(compact('questions'));
         $this->set('_serialize', ['questions']);
     }
