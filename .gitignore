@@ -1,5 +1,9 @@
 # CakePHP 3
 
+/phpmyadmin/*
+
+# CakePHP 3
+
 /vendor/*
 /config/app.php
 /tmp/*
@@ -62,3 +66,4 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
