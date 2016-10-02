@@ -1,25 +1,4 @@
-# CakePHP Application Skeleton
+#Aathichoodi quiz
+The Āathichoodi (Tamil: ஆத்திசூடி) is a collection of single-line quotations written by Avvaiyar and organized in alphabetical order. There are 109 of these sacred lines which include "Intend to do right deeds", "Never degrade learning", "Don't exaggerate what you saw", "Don't forget gratitude" and many other insightful quotes expressed in simple words. It teaches good habits,discipline and good works for all.
 
-[![Build Status](https://img.shields.io/travis/cakephp/app/master.svg?style=flat-square)](https://travis-ci.org/cakephp/app)
-[![License](https://img.shields.io/packagist/l/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
-
-A skeleton for creating applications with [CakePHP](http://cakephp.org) 3.x.
-
-The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
-
-## Installation
-
-1. Download [Composer](http://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
-
-If Composer is installed globally, run
-```bash
-composer create-project --prefer-dist cakephp/app [app_name]
-```
-
-You should now be able to visit the path to where you installed the app and see the default home page.
-
-## Configuration
-
-Read and edit `config/app.php` and setup the 'Datasources' and any other
-configuration relevant for your application.
+So, that is Aathichoodi and this web app is for testing my fellow Tamil for their knowledge in the verses. 
